@@ -1,0 +1,47 @@
+2일차 
+
+1. 설치 순서 변경
+  - JPype1 설치
+  - KoNLPy 설치
+
+2. 형태소 분석기
+Okt(구 Twitter) 주로 많이 쓰인다. (Open Korea Text)
+
+한글 형태소 품사 태그표
+http://kkma.snu.ac.kr/documents/?doc=postag
+
+한나눔
+https://www.sketchengine.eu/wp-content/uploads/Original-HanNanum-manual.pdf
+
+from konlpy.tag import Okt
+okt = Okt()
+okt.nouns(String) 
+--> List, DataFrame으로 대체 ( ex)평점, 리뷰, 작성 시간 )
+--> 전처리
+적용 예시
+  스팸 메일 처리 (SPAM, HAM 구분)
+  상품평
+  고객센터 챗봇
+
+
+3. 람다 함수 (익명함수)
+def 함수명(인수):
+	.....
+	.....
+	
+함수명(x, y)
+
+N-gram
+: 문자 단어, N은 연속된 갯수
+연속된(연관된) 문자 또는 단어
+ex) qu
+
+여러줄의 스트링 --> """ """, ''' '''
+여러줄의 주석 처리
+
+4. 네이버 영화 평점
+iframe : html 문서 안에 html 문서가 있는 것.
+
+5. pandas
+  - 1차원 : series
+  - 2차원 : DataFrame
