@@ -1,0 +1,51 @@
+Tensorflow-Deep-Learning-master/.gitignore
+Tensorflow-Deep-Learning-master/00_DevelopmentTool/KoNLPy.sh
+Tensorflow-Deep-Learning-master/00_DevelopmentTool/KoNLPy_Example.py
+Tensorflow-Deep-Learning-master/00_DevelopmentTool/custom.css
+Tensorflow-Deep-Learning-master/00_DevelopmentTool/font.sh
+Tensorflow-Deep-Learning-master/00_DevelopmentTool/hangul_font.py
+Tensorflow-Deep-Learning-master/01_TextMining/01_BeautifulSoup.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/02_bs_code.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/03_bs_project.html
+Tensorflow-Deep-Learning-master/01_TextMining/03_bs_project.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/04_네이버 영화평점 수집.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/05_네이버 영화평점 수집 완성본.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/06_네이버 영화평점 분석.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/11_nltk_자연어 처리.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/12_konlpy_기초.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/13_konlpy_ex1_문서 탐색하기.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/14_konlpy_ex2_말뭉치 탐색하기.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/15_konlpy_ex3_연어 찾기.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/16_konlpy_ex4_구문분석.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/17_Word Frequency.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/21_Word Cloud.ipynb
+Tensorflow-Deep-Learning-master/01_TextMining/data/01_Example.html
+Tensorflow-Deep-Learning-master/01_TextMining/data/02_test_first.html
+Tensorflow-Deep-Learning-master/01_TextMining/data/03.best_sandwiches_list_chicago.csv
+Tensorflow-Deep-Learning-master/01_TextMining/data/03.best_sandwiches_list_chicago2.csv
+Tensorflow-Deep-Learning-master/01_TextMining/data/03.best_sandwiches_list_chicago3.csv
+Tensorflow-Deep-Learning-master/01_TextMining/data/04.NaverMovie_Aladdin.xlsx
+Tensorflow-Deep-Learning-master/01_TextMining/data/13.zipf.png
+Tensorflow-Deep-Learning-master/01_TextMining/data/14.heap.png
+Tensorflow-Deep-Learning-master/01_TextMining/data/21_a_new_hope.txt
+Tensorflow-Deep-Learning-master/01_TextMining/data/21_alice.txt
+Tensorflow-Deep-Learning-master/01_TextMining/data/21_alice_mask.png
+Tensorflow-Deep-Learning-master/01_TextMining/data/21_heart.jpg
+Tensorflow-Deep-Learning-master/01_TextMining/data/21_present_candi.txt
+Tensorflow-Deep-Learning-master/01_TextMining/data/21_stormtrooper_mask.png
+Tensorflow-Deep-Learning-master/01_TextMining/data/~$04.NaverMovie_Aladdin.xlsx
+Tensorflow-Deep-Learning-master/02_TextConversion/01_word2vec_소개.ipynb
+Tensorflow-Deep-Learning-master/02_TextConversion/02_nltk_movie_reviews.ipynb
+Tensorflow-Deep-Learning-master/02_TextConversion/03_word2vec_tensorflow.ipynb
+Tensorflow-Deep-Learning-master/02_TextConversion/04_CBOW_in_Keras.ipynb
+Tensorflow-Deep-Learning-master/02_TextConversion/05_word2vec_여자친구 선물.ipynb
+Tensorflow-Deep-Learning-master/02_TextConversion/data/02_naver_ratings_train.txt
+Tensorflow-Deep-Learning-master/02_TextConversion/data/05.present.txt
+Tensorflow-Deep-Learning-master/02_TextConversion/model/01_word2vec.model
+Tensorflow-Deep-Learning-master/BOW_meets_BOPC/01_IMDB 영화리뷰 감정분석.ipynb
+Tensorflow-Deep-Learning-master/BOW_meets_BOPC/data/labeledTrainData.tsv
+Tensorflow-Deep-Learning-master/BOW_meets_BOPC/data/sampleSubmission.csv
+Tensorflow-Deep-Learning-master/BOW_meets_BOPC/data/testData.tsv
+Tensorflow-Deep-Learning-master/BOW_meets_BOPC/data/unlabeledTrainData.tsv
+Tensorflow-Deep-Learning-master/README.md
+data/GoogleNews-vectors-negative300.bin
