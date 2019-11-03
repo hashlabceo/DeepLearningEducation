@@ -1,0 +1,74 @@
+
+1. word2vec
+
+https://wikidocs.net/book/2155
+
+도메인 지식을 이용한 word2vec 생성이 중요!!
+
+jupyter notebook에서 코드가 완료되면 소리를 재생해주는 코드
+https://forums.fast.ai/t/sound-alerts-in-jupyter-for-code-completion-and-exceptions/4614
+
+01_사전 훈련된 Word2Vec.ipynb
+02_nltk_movie_reviews.ipynb
+
+유사도 --> cos 유사도
+
+
+2. tensorflow
+pip install tensorflow
+
+tensorflow 2.0에서 placeholder 등이 없어서 소스를 수정해서 다시 진행
+05_word2vec_여자친구 선물.ipynb
+
+3. 문서 유사도
+코사인 유사도
+
+마크다운....표정렬
+:-- 좌측정렬
+--: 우측정렬
+:---: 중앙정렬
+
+4. TF-IDF
+TF : Term Frequency
+DF : Document Frequency
+말뭉치 														TF	DF--> 2	IDF--> 
+doc1 = [,  ,  like,  ,  , , ,  ,.......................]  	1	1
+doc2 = [,  like,  ,  ,  like, , ,  like,...............]	3	1
+...........
+docN = [,  ,  ,  ,  , , ,  ,...........................]	0	0
+
+모든 문장에 나오는 단어는 중요하지 않다. 오히려 적게 출현하는 단어가 중요할 수 있다. 
+==> 중요 단어에 대한 가중치를 설정해준다. 
+
+
+5. 우리말샘
+https://opendict.korean.go.kr/main#none
+
+데이터 형식
+HTML --> BeautifulSoup
+XML
+JSON
+
+
+6. SQLite
+CRUD
+Create 	: Insert
+Read 	: Select
+Update 	: Update
+Delete	: Delete
+
+테이블 조인
+Inner JOIN : 교집합
+Outer JOIN : Left JOIN만 지원
+
+7 로그인 에러 경우의 수
+1)uid == duip, upw == dupw
+2)uid != duip, upw == dupw
+3)uid == duip, upw != dupw
+4)DB Error
+
+8. 암호화
+plain text 입력 --> hashed text(cipher text)로 DB저장
+
+hashpw/checkpw
+

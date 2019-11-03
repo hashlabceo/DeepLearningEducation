@@ -49,3 +49,4 @@ Tensorflow-Deep-Learning-master/BOW_meets_BOPC/data/testData.tsv
 Tensorflow-Deep-Learning-master/BOW_meets_BOPC/data/unlabeledTrainData.tsv
 Tensorflow-Deep-Learning-master/README.md
 data/GoogleNews-vectors-negative300.bin
+data/ko.bin
