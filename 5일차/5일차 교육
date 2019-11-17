@@ -1,0 +1,96 @@
+1. 뉴런과 퍼셉트론
+가중치와 입력값, 절편값이 매트릭스(행렬)로 표현
+매트릭스 차원을 맞춰야 한다. 
+
+XOR는 단일 퍼셉트론으로 해결되지 않는다. --> 다차원 퍼셉트론으로 해결
+
+L = np.matmul(X, W) + b
+
+L1 = tf.matmul(X, W1) + b1
+X ==> 1 * 2
+W1 ==> 2 * 2
+b1 ==> 1 * 2
+
+L1 = tf.nn.sigmoid(L1)
+
+L2 = tf.matmul(L1, W2) + b2
+
+hyperthesis = ft.nn.sigmoid(L2)
+
+feed_dict : 값을 넣어주는 과정
+
+placeholder : 값을 넣어주기 위해 미리 잡아 두는 것.
+
+None : 숫자를 정의할 수 없을 때...(앞으로 추가될 가능성이 높은 경우)
+
+예측값 - 실제값 = e (RMSE)
+
+-y * logh - (1-y) * log(1-h)
+
+reduce_mean() : 차원 축소
+
+_, cost.val = sess.run([train, cost], feed_dict= {X:..., Y:....}) : 학습 시작....
+_ 변수는 실제로 사용하지 않는 경우 사용하는 관습적인 변수
+
+
+텐서보드 사용
+$tensorboard --logdir=./logs/and
+$tensorboard --logdir=./logs/xor_logs_r0_01
+
+오차역전파 = (이전층 출력)T * (현재층 손실)
+35p : 최대치 : 0.25
+
+고려사항
+1. hidden layer/node 의 갯수
+2. Optimizer 함수
+3. Cost 함수
+4. learning rate 결정
+5. 활성화 함수 결정
+
+입력 --> 블랙박스 --> 출력
+		(keras)
+		
+epochs : 전체 데이터를 몇번 반복해서 학습할 것인가?
+
+list의 데이터에는 어떤 형태든지 가능하다. 
+--> 데이터를 object화를 해서 사용해야 한다. 
+--> 포인터를 사용 
+--> 속도가 느리다. 
+--> c 언어로된 numpy를 사용
+
+text > float > int > bool
+
+왼쪽 타입으로 통일!!
+데이터프레임은 로우단위로 통일하지 않는다...(컬럼단위로만 통일)
+
+3. 피마인디언 분석
+데이터 분석 중요~~
+
+4. matplotlib
+https://datascienceschool.net/view-notebook/d0b1637803754bb083b5722c9f2209d0/
+
+4분위값
+박스 플롯
+		|
+		|
+	 ___|___	2.5배
+3Q	|		|
+M	|-------|
+1Q	|_______|
+		|
+		|
+		|	2.5배
+		
+		
+피마인디언 당뇨병 예측값
+파라미터 = input * node + bias
+L1 : 8 * 12 + 12	= 108
+L2 : 12 * 8 + 8		= 104
+L3 : 8 + 1			=	9
+
+argmax(Y, 1) --> 1이 있는 index값을 리턴
+
+    Y       리턴값
+[1, 0, 0] -> 0
+[0, 1, 0] -> 1
+[0, 0, 1] -> 2
